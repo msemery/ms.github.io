@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url("photo-gratuite-libre-de-droit-unsplash-1024x683.jpg")no-repeat center fixed;
+	webkit-background-size: cover;
+	background-size: cover;
+}
+
+.bg {
+	width: 100vw;
+	height: 100vh;
+}
+.block {
+	height: 40vh;
+}
+
+#nom {
+	color: white;
+	font-size: 50px;
+	font-family: 'Special Elite', cursive;
+	transition: transform 0.5s;
+	animation: fadein 5s;
+	moz-animation: fadein 5s; /* Firefox */
+	webkit-animation: fadein 5s; /* Safari et Chrome */
+	o-animation: fadein 5s; /* Opera */
+}
+
+@keyframes fadein {
+	from {
+		opacity:0;
+}
+	to {
+	  opacity:1;
+}
+}
+
+#nom:hover {
+	transform: scale(1.2);
+
+}
+
+#web {
+	color: gray;
+	font-size: 40px;
+	color: #ff6a00;
+	animation: fadein 5s;
+	moz-animation: fadein 5s; /* Firefox */
+	webkit-animation: fadein 5s; /* Safari et Chrome */
+	o-animation: fadein 5s; /* Opera */
+
+}
+
+@keyframes fadein {
+ from {
+	 opacity:0;
+}
+	 to {
+	 opacity:1;
+}
+}
+
+.block2 {
+	height: 50vh;
+}
+
+.icones a {
+	padding: 25px;
+}
